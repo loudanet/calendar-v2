@@ -1,0 +1,12 @@
+nav {
+  background-color: teal;
+}
+
+nav p {
+  display: inline-block;
+  width: 20%;
+}
+nav p:hover {
+  cursor: pointer;
+  color: yellow;
+}

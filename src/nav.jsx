@@ -1,11 +1,14 @@
+import { useNavigate } from "react-router-dom";
+import "./nav.css"
+
 export default function Nav() {
+    const navigate = useNavigate();
+    
     return (
-        <div>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/contact">Contact</a></li>
-            </ul>
-        </div>
+        <nav>
+            <p onClick={() => navigate("/")}>Home</p>
+            <p onClick={() => navigate("about")}>About</p>
+            <p onClick={() => navigate("contact")}>Contact</p>
+        </nav>
     );
 }

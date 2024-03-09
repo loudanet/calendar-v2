@@ -1,0 +1,46 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body {
+  background-color: black;
+  color: white;
+}
+
+table {
+  background-color: goldenrod;
+  width: 100%;
+}
+th {
+  background-color: darkred;
+  color: goldenrod;
+}
+td {
+  width: 20%;
+}
+table tr:not(:first-child):hover {
+  background-color: white;
+  color: darkred;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+body .win {
+  background-color: lightgreen;
+}
+body .draw {
+  background-color: grey;
+}
+body .loss {
+  background-color: lightcoral;
+}
+
+#info {
+  position: absolute;
+  z-index: 9999;
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0.7);
+  color: black;
+}

@@ -2,9 +2,11 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route, Outlet } from "react-router-dom";
 import Nav from "./nav.jsx";
 import About from "./about.jsx";
-import "./App.css";
+import "./styles.css";
 
 function App() {
+  // document.addEventListener("mousemove")
+  
   return (
     <Router>
       <Routes>

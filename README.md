@@ -2,4 +2,4 @@
 
 Just taking the opportunity to play around with CSS, routers, and HTML.
 
-![picture](./screenshot.png)
+![picture](./Screenshot.png)
